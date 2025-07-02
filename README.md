@@ -35,7 +35,7 @@ end)
 
 -- 🧰 Auto Buy Tools (Watering Can + Trowel)
 local autoBuyGears = false
-btns:Toggle("💧🚿Auto Buy Gears", false, function(state)
+btns:Toggle("💧 Auto Buy Gears", false, function(state)
     autoBuyGears = state
     spawn(function()
         while autoBuyGears do
